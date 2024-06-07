@@ -31,13 +31,12 @@ Author URI : http://www.markups.io/
 .mu-testimonial-slide .slick-dots li.slick-active button,
 .mu-resume-btn:hover,
 .mu-resume-btn:focus,
-.mu-header-dot,
 .mu-filter-item-content,
 .mu-contact-top-single .mu-icon,
 .mu-skill-progress-bar .mu-pro-bar,
 #mu-featured-slider,
-#mu-header.mu-fixed-nav {
-	background-color: #ee4532;
+.mu-fixed-nav {
+	background-color: #006989;
 }
 
 .mu-contact-form .form-control:focus {
@@ -50,9 +49,14 @@ Author URI : http://www.markups.io/
 	color: #ee4532;
 }
 
+.mu-featured-area h1 {
+    color: #F3F7EC !important;
+}
 
 .mu-pro-bar .proggress {
 	background-color: #ee4532 !important;
 }
 
-
+#mu-header {
+	background-color: #ee4532;
+}
